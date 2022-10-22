@@ -1,0 +1,10 @@
+import pandas as pd
+import statsmodels.api as sm
+import matplotlib.pyplot as plt
+
+df = pd.DataFrame({'A':[],'B': []})
+df
+
+f, ax = plt.subplots(1, figsize = (8,5))
+sm.graphics.mean_diff_plot(df.A, df.B, ax = ax)
+plt.show()
