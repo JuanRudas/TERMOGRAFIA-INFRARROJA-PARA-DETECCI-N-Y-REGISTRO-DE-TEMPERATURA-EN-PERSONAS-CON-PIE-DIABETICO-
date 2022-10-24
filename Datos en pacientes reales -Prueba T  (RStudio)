@@ -3,6 +3,7 @@ library(nortest)
 library(ggplot2)
 library(car)
 
+## Validación en pacientes reales
 df <- data.frame(
   "#" = 1:15, 
   "Equipo" = c("DiaCAM","DiaCAM","DiaCAM","DiaCAM","DiaCAM","DiaCAM","DiaCAM","DiaCAM","DiaCAM","DiaCAM","DiaCAM","DiaCAM","DiaCAM","DiaCAM","DiaCAM","HY01 MLX90640","HY01 MLX90640","HY01 MLX90640","HY01 MLX90640","HY01 MLX90640","HY01 MLX90640","HY01 MLX90640","HY01 MLX90640","HY01 MLX90640","HY01 MLX90640","HY01 MLX90640","HY01 MLX90640","HY01 MLX90640","HY01 MLX90640","HY01 MLX90640"), 
